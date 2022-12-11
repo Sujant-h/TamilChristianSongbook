@@ -8,13 +8,16 @@ body{
   height:100vh;
   margin:0;
   hyphens: none;
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 21%, rgba(180,194,214,1) 100%);
 
 
 }
 
+
 header{
   height:auto;
-  background:lightcyan;
+
 }
 
 
@@ -28,6 +31,7 @@ header{
   height:auto;
   padding-bottom: 0.50%;
   padding-top: 0.25%;
+      border-radius: 0 0 12px 12px;
 }
 
 
@@ -39,12 +43,19 @@ header{
   font-weight: 600;
 }
 
+.container-main{
+    background-color: #f1f1f1;
+}
+
 .main {
 padding-top: 5px;
 padding-left: 10px;
 padding-right: 10px;
 padding-bottom: 10px;
 font-size: 4.5vw;
+background-color: white;
+border-radius: 12px;
+
 
 }
 
